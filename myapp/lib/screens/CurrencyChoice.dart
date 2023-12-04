@@ -39,7 +39,7 @@ class _SingleChoiceState extends State<SingleChoice> {
 
 BoxDecoration dieselBoxDecoration() {
   return BoxDecoration(
-    border: Border.all(width: 1.0, color: Colors.white),
+    border: Border.all(width: 0.5, color: Colors.white),
     borderRadius: const BorderRadius.all(Radius.circular(20.0)),
     color: Colors.black,
   );
@@ -47,14 +47,14 @@ BoxDecoration dieselBoxDecoration() {
 
 BoxDecoration petrolBoxDecoration() {
   return BoxDecoration(
-      border: Border.all(width: 1.0, color: Colors.white),
+      border: Border.all(width: 0.5, color: Colors.white),
       borderRadius: const BorderRadius.all(Radius.circular(20.0)),
       gradient: LinearGradient(colors: [Colors.green, Colors.black]));
 }
 
 BoxDecoration lpgBoxDecoration() {
   return BoxDecoration(
-    border: Border.all(width: 1.0, color: Colors.white),
+    border: Border.all(width: 0.5, color: Colors.white),
     borderRadius: const BorderRadius.all(Radius.circular(20.0)),
     color: Colors.black45,
   );
